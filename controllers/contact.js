@@ -5,7 +5,7 @@ let express = require('express')
 let router = express.Router()
 
 router.get('/', (req, res) => {
-    res.render('contact/index');
+    res.render('index');
 })
 
 //make public
